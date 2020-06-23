@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Master template to deploy Meter data analytics platform"
+Description: "Master template to deploy Meter data analytics platform (qs-1qrqt817p)"
 Conditions:
   UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-quickstart']
 
